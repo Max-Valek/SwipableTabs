@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		9D1FE1522A1E94C4008ADA80 /* SlidingTabsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FE1512A1E94C4008ADA80 /* SlidingTabsApp.swift */; };
-		9D1FE1542A1E94C4008ADA80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FE1532A1E94C4008ADA80 /* ContentView.swift */; };
 		9D1FE1562A1E94C6008ADA80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D1FE1552A1E94C6008ADA80 /* Assets.xcassets */; };
 		9D1FE1592A1E94C6008ADA80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D1FE1582A1E94C6008ADA80 /* Preview Assets.xcassets */; };
+		9D1FE1642A1E9EE1008ADA80 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FE1632A1E9EE1008ADA80 /* GridView.swift */; };
+		9D1FE1662A1EA480008ADA80 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FE1652A1EA480008ADA80 /* Tab.swift */; };
+		9D1FE1682A1EA4BC008ADA80 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FE1672A1EA4BC008ADA80 /* Home.swift */; };
+		9D3499012A1EA8A5005AE3DD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3499002A1EA8A5005AE3DD /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D1FE14E2A1E94C4008ADA80 /* SlidingTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1FE1512A1E94C4008ADA80 /* SlidingTabsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingTabsApp.swift; sourceTree = "<group>"; };
-		9D1FE1532A1E94C4008ADA80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D1FE1552A1E94C6008ADA80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D1FE1582A1E94C6008ADA80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D1FE1632A1E9EE1008ADA80 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		9D1FE1652A1EA480008ADA80 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		9D1FE1672A1EA4BC008ADA80 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9D3499002A1EA8A5005AE3DD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				9D1FE1512A1E94C4008ADA80 /* SlidingTabsApp.swift */,
-				9D1FE1532A1E94C4008ADA80 /* ContentView.swift */,
+				9D1FE1602A1E990A008ADA80 /* Models */,
+				9D1FE15F2A1E955F008ADA80 /* Views */,
 				9D1FE1552A1E94C6008ADA80 /* Assets.xcassets */,
 				9D1FE1572A1E94C6008ADA80 /* Preview Content */,
 			);
@@ -65,6 +72,24 @@
 				9D1FE1582A1E94C6008ADA80 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9D1FE15F2A1E955F008ADA80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D1FE1672A1EA4BC008ADA80 /* Home.swift */,
+				9D1FE1632A1E9EE1008ADA80 /* GridView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9D1FE1602A1E990A008ADA80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9D1FE1652A1EA480008ADA80 /* Tab.swift */,
+				9D3499002A1EA8A5005AE3DD /* Item.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D1FE1542A1E94C4008ADA80 /* ContentView.swift in Sources */,
+				9D1FE1662A1EA480008ADA80 /* Tab.swift in Sources */,
+				9D1FE1642A1E9EE1008ADA80 /* GridView.swift in Sources */,
+				9D1FE1682A1EA4BC008ADA80 /* Home.swift in Sources */,
+				9D3499012A1EA8A5005AE3DD /* Item.swift in Sources */,
 				9D1FE1522A1E94C4008ADA80 /* SlidingTabsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
